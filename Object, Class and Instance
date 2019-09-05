@@ -1,0 +1,42 @@
+In OO Programming, we often hear of terms like “Class”, “Object” and “Instance”; but what actually is a Class / Object / Instance?
+In short, An object is a software bundle of related state and behavior. A class is a blueprint or prototype from which objects are created.
+An instance is a single and unique unit of a class.
+Example, we have a blueprint (class) represents student (object) with fields like name, age, course (class member). And we have 2 students 
+here, Foo and Bob. So, Foo and Bob is 2 different instances of the class (Student class) that represent object (Student people).
+
+Let me go into details…
+
+Object
+Real world objects shares 2 main characteristics, state and behavior. Human have state (name, age) and behavior (running, sleeping). Car 
+have state (current speed, current gear) and state (applying brake, changing gear). Software objects are conceptually similar to real-world
+objects: they too consist of state and related behavior. An object stores its state in fields and exposes its behavior through methods.
+
+Class
+Class is a “template” / “blueprint” that is used to create objects. Basically, a class will consists of field, static field, method, static
+method and constructor. Field is used to hold the state of the class (eg: name of Student object). Method is used to represent the behavior
+of the class (eg: how a Student object going to stand-up). Constructor is used to create a new Instance of the Class.
+
+Instance
+An instance is a unique copy of a Class that representing an Object. When a new instance of a class is created, the JVM will allocate a 
+room of memory for that class instance.
+
+
+在OO编程中，我们经常听到诸如“class”、“object”和“instance”之类的术语；但实际上什么是类/对象/实例？
+
+简而言之，对象是一个相关状态和行为的软件包。类是从中创建对象的蓝图或原型。实例是类中唯一的单元。
+
+例如，我们有一个蓝图（类）表示学生（对象），其中包含名称、年龄、课程（类成员）等字段。我们这里有两个学生，foo和bob。所以，foo和bob是表示对象（学生）
+的类（学生类）的两个不同实例。
+
+让我详细谈谈…
+
+物体
+现实世界对象有两个主要特征，状态和行为。人有状态（姓名、年龄）和行为（跑步、睡觉）。汽车有状态（当前速度、当前档位）和状态（制动、换档）。软件对象在
+概念上与现实世界对象相似：它们也由状态和相关行为组成。对象将其状态存储在字段中，并通过方法公开其行为。
+
+等级
+类是用于创建对象的“模板”/“蓝图”。基本上，类由字段、静态字段、方法、静态方法和构造函数组成。字段用于保存类的状态（例如：学生对象的名称）。方法用于表示
+类的行为（例如：学生对象如何站起来）。构造函数用于创建类的新实例。
+
+实例
+实例是表示对象的类的唯一副本。创建类的新实例时，JVM将为该类实例分配一个内存空间。
